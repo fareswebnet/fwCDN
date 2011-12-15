@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - fwCDN</name>
+	<author>faresweb.net</author>
+	<creationDate>November 2011</creationDate>
+	<copyright>Copyright (C) 2011 faresweb.net. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>webmaster@faresweb.net</authorEmail>
+	<authorUrl>www.faresweb.net</authorUrl>
+	<version>1.0</version>
+	<description>PLUGIN_DESCRIPTION</description>
+	<files>
+		<filename plugin="fwcdn">fwcdn.php</filename>
+    <folder>fwcdn</folder>     
+	</files>
+  <languages>
+	  <language tag="en-GB">en-GB.plg_system_fwcdn.ini</language>
+	  <language tag="fr-FR">fr-FR.plg_system_fwcdn.ini</language>
+  </languages>
+
+	<params>
+
+    <param name="@spacer" type="spacer" default="" label="CDN_SETTINGS"></param>
+
+    <param name="cdnmapping" type="textarea" rows="3" cols="40" default="" label="CDNMAPPING_LABEL" description="CDNMAPPING_DESCRIPTION"></param>
+		<param name="cdnhttpssupport" type="radio" default="0" label="CDNHTTPSSUPPORT_LABEL" description="CDNHTTPSSUPPORT_DESCRIPTION">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+
+	</params>
+	
+</install>
