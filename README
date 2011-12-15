@@ -2,3 +2,5 @@ fwCdn plugin for Joomla! 1.5.x
 
 The plugin provide easy Content Delivery Network integration for Joomla! sites.
 It alters file URLs, so that files are downloaded from a CDN instead of your web server.
+
+Please check other Joomla! extensions on http://www.faresweb.net/
